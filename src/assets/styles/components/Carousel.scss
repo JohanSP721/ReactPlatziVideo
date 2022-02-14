@@ -1,0 +1,45 @@
+.categories__title
+{
+	color: white;
+	padding-left: 3.2rem;
+}
+
+.carousel
+{
+	overflow: auto;
+	width: 100%;
+	position: relative;
+	padding: 4.8rem 0;
+}
+
+.carousel::-webkit-scrollbar
+{
+	-webkit-appearance: none;
+}
+
+.carousel::-webkit-scrollbar:vertical
+{
+	widows: 1rem;
+}
+
+.carousel::-webkit-scrollbar-button:increment,.carousel::-webkit-scrollbar-button
+{
+	display: none;
+} 
+
+.carousel::-webkit-scrollbar:horizontal
+{
+	height: 1rem;
+}
+
+.carousel::-webkit-scrollbar-thumb
+{
+	background-color: #797979;
+	border-radius: 2rem;
+	border: .2rem solid #f1f2f3;
+}
+
+.carousel::-webkit-scrollbar-track
+{
+	border-radius: 1rem;  
+}
